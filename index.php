@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="Img/KashafMasoodIcon.png" type="image/icon type">
+    <title>Kashaf Masood - Home </title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="nav-bar">
+        <div id="title"> <h1>Kashaf Masood </h1></div>
+        <div id="page-source">
+          <ul id="tags">
+            <li> <a href="index.php">Home</a></li>
+            <li> <a href="portfolio.html">Portfolio</a></li>
+            <li> <a href="resume.html">Resumé</a></li>
+            <li> <a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="container-home">
+      <div id="content-home">
+        <div id="greetings"> 
+          <h1>Hi, I'm Kashaf Masood </h1>
+          <h3>Future Biomedical Engineer & Front-End Developer</h3>
+        </div>
+        <div> 
+          <p> When the principles of engineering are connected with the foundations of biology and medicine, an amazing interdisciplinary field is created - <strong>Biomedical Engineering</strong>. This field connects wide areas of studies from mechanics to computer programming. </p>
+
+          <p>I am interested in the software application of <strong> Biomedical Engineering</strong> such as machine learning and image processing. I also enjoy creating interactive and unique website layouts for people to use making web-development a fond hobbie. </p>
+          <p> I want to combine both my love for <strong> Biomedical Engineering </strong> with my programming skills in my future career.</p>
+        
+          
+        </div>
+
+        <div id="forward-links">
+          <button type="button" class="btn btn-success"> <a href="portfolio.html"> View Portfolio</a></button>
+          <button type="button" class="btn btn-success"> <a href="Resources/KashafMasood - Resume.pdf" target="blank">View Resumé PDF</a></button>
+        </div>
+      </div>
+      
+      <div class="hovereffect">
+        <img class="card-img-top" src="Img/me.png" alt="">
+        <div class="overlay">
+            <a href="https://github.com/KashafM" target=" blank"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+  
+    </div>
+    <br>
+    
+    <div class="wrap">
+      <div id="footer">
+        <div id="contact">
+          <h5>CONTACT</h5>
+          <p id="email">kashafmasood17@gmail.com</p>
+        </div>
+        
+        <div id="menu">
+          <h5>MENU</h5>
+          <p><a href="index.php">Home</a></p>
+          <p><a href="portfolio.html">Portfolio</a></p>
+          <p><a href="resume.html">Resumé</a></p>
+          <p><a href="contact.html">Contact Me</a></p>
+        </div>
+        
+        <div id="recentPosts">
+          <h5>RECENT GITHUB POSTS</h5>
+          <p><a href="https://github.com/KashafM/CodePlayer" target="blank">CodePlayer </a></p>
+          <p><a href="#">Client Form </a></p>
+        </div>
+      </div>
+        <br>
+        <h5 id="subEnding">Kashaf Masood </h5>
+        <p> &copy; Kashaf Masood. Built using HTML5, CSS3, Bootstrap 4, Font Awesome. </p>
+    </div>
+  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $(".wrapper").fadeIn(1500);
+    });
+    </script>
+  </body>
+</html>
